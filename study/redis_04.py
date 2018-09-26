@@ -2,8 +2,8 @@
 
 import redis
 
-key = 'cti_link_acl.block_list'
-host = 'clink-test.sxb76t.ng.0001.cnw1.cache.amazonaws.com.cn'
+key = 'test-key'
+host = '192.168.10.1'
 red = redis.Redis(host=host, port=6379, db=4)
 
 def getip():
